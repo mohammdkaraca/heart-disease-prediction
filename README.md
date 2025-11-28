@@ -5,10 +5,16 @@
 This project analyzes a dataset of patients to identify key indicators of heart disease. It includes Data Cleaning, Exploratory Data Analysis (EDA), and correlation studies.
 
 ## Key Findings
-- **Age:** Older patients have a higher risk, as shown in the KDE plots.
-- **Max Heart Rate:** Patients with lower max heart rates are more likely to have heart disease.
-- **Chest Pain:** Asymptomatic chest pain was the strongest predictor.
+- **thal_normal:** has a -0.52 corrolation rate with heart disease targets 
+- **thal_reversed:** has a 0.48 corrolation rate with heart disease targets
+- **Max Heart Rate:** has a -0.43 corrolation rate with heart disease targets
+- **Ca(blocked vessels):**has a 0.45 corrolation rate with heart disease targets
+- **Exercise-Induced Angina:**has a 0.43 corrolation rate with heart disease targets
+  
 
-## Technologies Used
-- Python (Pandas, NumPy)
-- Visualization (Matplotlib, Seaborn)
+## Libraries Used
+-pandas 
+-numpy 
+-matplotlib 
+-seaborn 
+
