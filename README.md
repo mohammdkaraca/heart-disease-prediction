@@ -4,7 +4,7 @@
 ## Overview
 This project analyzes a dataset of patients to identify key indicators of heart disease. It includes Data Cleaning, Exploratory Data Analysis (EDA), and correlation studies.
 
-## Key Findings
+## Key Findings(highest corrolation rate features with heart disease patients)
 - **thal_normal:** has a -0.52 corrolation rate with heart disease targets 
 - **thal_reversed:** has a 0.48 corrolation rate with heart disease targets
 - **Max Heart Rate:** has a -0.43 corrolation rate with heart disease targets
