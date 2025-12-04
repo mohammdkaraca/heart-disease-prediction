@@ -41,47 +41,36 @@ For every combination of Model + Encoding, we applied two tuning strategies to m
 ```
 ## 📂 Repository Structure
 
-project/
+HD_detetion/
 │
 ├── Decision_Tree/
 │ ├── data.csv # Dataset used for this algorithm
-│ ├── decision_tree_model.ipynb # Jupyter notebook for Decision Tree implementation
-│ └── model_pkl_files/ # Serialized model files (.pkl)
-│ ├── model_one_hot.pkl
-│ ├── model_label_encoded.pkl
-│ └── model_target_encoded.pkl
+│ ├── main.ipynb # Jupyter notebook for implementation
+│ ├── decision_tree_data_pkl 
 │
 ├── Logistic_Regression/
 │ ├── data.csv
 │ ├── logistic_regression_model.ipynb
-│ └── model_pkl_files/
-│ ├── model_one_hot.pkl
-│ ├── model_label_encoded.pkl
-│ └── model_target_encoded.pkl
+│ ├── main1.ipynb # Jupyter notebook for implementation
+│ ├── Logistic_regression_data_pkl 
 │
 ├── Random_Forest/
 │ ├── data.csv
 │ ├── random_forest_model.ipynb
-│ └── model_pkl_files/
-│ ├── model_one_hot.pkl
-│ ├── model_label_encoded.pkl
-│ └── model_target_encoded.pkl
+│ ├── main2.ipynb # Jupyter notebook for implementation
+│ ├── Random_forest_data_pkl
 │
 ├── Gradient_Boosting/
 │ ├── data.csv
 │ ├── gradient_boosting_model.ipynb
-│ └── model_pkl_files/
-│ ├── model_one_hot.pkl
-│ ├── model_label_encoded.pkl
-│ └── model_target_encoded.pkl
+│ ├── main3.ipynb # Jupyter notebook for implementation
+│ ├── Gradient_boosting_data_pkl 
 │
 ├── SVM/
 │ ├── data.csv
 │ ├── svm_model.ipynb
-│ └── model_pkl_files/
-│ ├── model_one_hot.pkl
-│ ├── model_label_encoded.pkl
-│ └── model_target_encoded.pkl
+│ ├── main4.ipynb # Jupyter notebook for implementation
+│ ├── SVM_data_pkl 
 │
 └── final_verdict.ipynb # Final comparison and conclusions notebook
 ```
