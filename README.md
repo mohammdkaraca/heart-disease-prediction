@@ -38,7 +38,7 @@ For every combination of Model + Encoding, we applied two tuning strategies to m
 * **Bayesian Optimization (`scikit-optimize`):** A probabilistic approach that "learns" from previous iterations to find optimal parameters more efficiently.
 
 ---
-
+```
 ## 📂 Repository Structure
 
 project/
@@ -84,7 +84,7 @@ project/
 │ └── model_target_encoded.pkl
 │
 └── final_verdict.ipynb # Final comparison and conclusions notebook
-
+```
 Usage
 Navigate to any algorithm folder to explore specific implementations
 
