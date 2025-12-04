@@ -41,3 +41,53 @@ For every combination of Model + Encoding, we applied two tuning strategies to m
 
 ## 📂 Repository Structure
 
+project/
+│
+├── Decision_Tree/
+│ ├── data.csv # Dataset used for this algorithm
+│ ├── decision_tree_model.ipynb # Jupyter notebook for Decision Tree implementation
+│ └── model_pkl_files/ # Serialized model files (.pkl)
+│ ├── model_one_hot.pkl
+│ ├── model_label_encoded.pkl
+│ └── model_target_encoded.pkl
+│
+├── Logistic_Regression/
+│ ├── data.csv
+│ ├── logistic_regression_model.ipynb
+│ └── model_pkl_files/
+│ ├── model_one_hot.pkl
+│ ├── model_label_encoded.pkl
+│ └── model_target_encoded.pkl
+│
+├── Random_Forest/
+│ ├── data.csv
+│ ├── random_forest_model.ipynb
+│ └── model_pkl_files/
+│ ├── model_one_hot.pkl
+│ ├── model_label_encoded.pkl
+│ └── model_target_encoded.pkl
+│
+├── Gradient_Boosting/
+│ ├── data.csv
+│ ├── gradient_boosting_model.ipynb
+│ └── model_pkl_files/
+│ ├── model_one_hot.pkl
+│ ├── model_label_encoded.pkl
+│ └── model_target_encoded.pkl
+│
+├── SVM/
+│ ├── data.csv
+│ ├── svm_model.ipynb
+│ └── model_pkl_files/
+│ ├── model_one_hot.pkl
+│ ├── model_label_encoded.pkl
+│ └── model_target_encoded.pkl
+│
+└── final_verdict.ipynb # Final comparison and conclusions notebook
+
+Usage
+Navigate to any algorithm folder to explore specific implementations
+
+Open the Jupyter notebook to see the complete workflow
+
+Check final_verdict.ipynb for the comprehensive comparison and conclusions
